@@ -1,0 +1,28 @@
+{
+  "name": "joie-payment-app",
+  "version": "0.0.1",
+  "description": "payment app that validates credit card numbers and masks user input as user types",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jo-IE/payment-app.git"
+  },
+  "keywords": [
+    "credit",
+    "card",
+    "luhn"
+  ],
+  "author": "Jo IE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jo-IE/payment-app/issues"
+  },
+  "homepage": "https://github.com/Jo-IE/payment-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
